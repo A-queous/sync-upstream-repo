@@ -2,6 +2,7 @@ FROM alpine:latest
 
 RUN apk add --no-cache \
 	bash \
+	openssh \
 	git
 
 RUN adduser -D ci
